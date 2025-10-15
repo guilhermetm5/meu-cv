@@ -1,0 +1,55 @@
+* {
+    font-family: 'Inter', sans-serif; /* Fonte padrão */
+    font-weight: 400;               /* Peso da fonte padrão */
+}
+main {
+    display: flex;          /* Define que os elementos dentro serão flexíveis (lado a lado) */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    min-width: 300px;      /* Largura mínima */
+    max-width: 800px;      /* Largura máxima */
+    margin: 0 auto;        /* Centraliza horizontalmente */
+    padding: 20px;          /* Espaçamento interno */
+    border: 1px 0px 0px 0px solid #000000; /* Borda superior */
+}
+.profile {
+    display: flex;          /* Define que os elementos dentro serão flexíveis (lado a lado) */
+    align-items: center;    /* Alinha verticalmente no centro */
+    gap: 20px;              /* Espaço entre a imagem e o texto */
+}
+
+.profile--picture {
+    width: 150px;           /* Ajuste o tamanho da imagem */
+    height: 150px;
+    border-radius: 50%;     /* Deixa a imagem arredondada, opcional */
+    object-fit: cover;      /* Mantém a proporção da imagem */
+}
+
+.profile--text {
+    display: flex;          /* Define que os elementos dentro serão flexíveis (lado a lado) */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.profile--text h1, 
+.profile--text h2 {
+    margin-top: 10px;      /* Espaço acima dos elementos */
+    margin: 0;              /* Remove margens padrão */
+}
+.profile--text h2,
+.profile--text a{
+    color: #555555;     /* Cor do subtítulo e link */
+}
+
+.profile--text a {
+    margin: 20px 20px 0px;      /* Espaço entre o subtítulo e o link */
+    text-decoration: none;
+}
+
+.about {
+    margin-top: 20px;      /* Espaço acima da seção "Sobre Mim" */
+    line-height: 1.6;      /* Espaçamento entre linhas para melhor legibilidade */
+}
+.about p {
+    color: #555555;        /* Cor do título "Sobre Mim" */
+    margin-bottom: 10px;   /* Espaço abaixo do título "Sobre Mim" */
+}
