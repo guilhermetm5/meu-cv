@@ -53,3 +53,76 @@ main {
     color: #555555;        /* Cor do título "Sobre Mim" */
     margin-bottom: 10px;   /* Espaço abaixo do título "Sobre Mim" */
 }
+.job {
+    display: flex;          /* Define que os elementos dentro serão flexíveis (lado a lado) */
+    margin-bottom: 20px;   /* Espaço abaixo de cada experiência profissional */
+
+}
+.job--date {
+    font-weight: bold;     /* Deixa a data em negrito */
+    min-width: 120px;      /* Largura mínima para alinhar as datas */
+    color: #555555;       /* Cor do texto da data */
+}
+.job--text {
+    display: flex;          /* Define que os elementos dentro serão flexíveis (lado a lado) */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    margin-left: 2rem;     /* Espaço entre a data e o texto da experiência */
+}
+.job--text h4 {
+    margin: 0 15px 0 0;        /* Espaço acima e abaixo do título */
+    font-size: 1rem;       /* Tamanho da fonte do título da experiência */
+    color: #333333;        /* Cor do título da experiência */
+}
+.job--text p {
+    padding-left: 2rem;    /* Espaço à esquerda para alinhar com o título */
+    font-size: 0.7rem;     /* Peso normal para as descrições */
+    margin: 2px 0px;         /* Espaço entre os parágrafos */
+    color: #555555;        /* Cor do texto das descrições */
+}
+.education {
+    margin-top: 20px;      /* Espaço acima da seção "Educação" */
+}
+.education--date {
+    font-weight: bold;     /* Deixa a data em negrito */
+    min-width: 120px;      /* Largura mínima para alinhar as datas */
+    color: #555555;       /* Cor do texto da data */
+}
+.education--text {
+    display: flex;          /* Define que os elementos dentro serão flexíveis (lado a lado) */
+}
+.education--text h4 {
+    margin: 0;              /* Remove margens padrão */
+}
+.education--text--content {
+    display: flex;          /* Define que os elementos dentro serão flexíveis (lado a lado) */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    margin-left: 2rem;     /* Espaço entre a data e o texto da educação */
+}
+.contact {
+    margin-top: 20px;      /* Espaço acima da seção "Contato" */
+}
+.contact--info {
+    display: flex;          /* Define que os elementos dentro serão flexíveis (lado a lado) */
+}
+.contact--text span{
+    font-weight: bold;     /* Deixa o título em negrito */
+    color: #555555;        /* Cor do título "Contato" */
+    min-width: 120px;      /* Largura mínima para alinhar os textos */
+}
+.contact--content{
+    margin-left: 2rem;     /* Espaço entre o título e o conteúdo do contato */
+    display: flex;          /* Define que os elementos dentro serão flexíveis (lado a lado) */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+}
+.contact--content a {
+    color: #555555;        /* Cor dos links de contato */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin-bottom: 5px;    /* Espaço entre os links */
+}
+.contact--content a i {
+    font-size: 0.8rem;     /* Tamanho do ícone */
+    margin-left: 5px;      /* Espaço entre o texto e o ícone */
+}
