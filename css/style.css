@@ -126,3 +126,33 @@ main {
     font-size: 0.8rem;     /* Tamanho do ícone */
     margin-left: 5px;      /* Espaço entre o texto e o ícone */
 }
+
+.courses {
+    margin-top: 20px;      /* Espaço acima da seção "Cursos" */
+}
+
+.course {
+    display: flex;          /* Mantém alinhamento consistente com outras seções */
+    flex-direction: column; /* Organiza conteúdo em coluna */
+    gap: 6px;               /* Espaço entre título, meta e descrição */
+    margin-bottom: 16px;   /* Espaço inferior entre os cursos */
+}
+
+.course h4 {
+    margin: 0;              /* Remove margem padrão */
+    font-size: 1rem;       /* Tamanho do título */
+    color: #333333;        /* Cor do título, igual às demais seções */
+}
+
+.course span {
+    display: block;        /* Garante que fique abaixo do título */
+    color: #555555;        /* Cor do texto secundário */
+    font-size: 0.8rem;     /* Tamanho reduzido para as informações complementares */
+}
+
+.course p {
+    margin: 0;              /* Remove margens padrão */
+    color: #555555;        /* Cor do texto das descrições */
+    font-size: 0.85rem;    /* Mantém proporção com as demais descrições */
+    line-height: 1.4;      /* Facilita a leitura */
+}
